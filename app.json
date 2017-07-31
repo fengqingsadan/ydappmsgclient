@@ -1,0 +1,34 @@
+{
+	"appInfo":{
+		"buin":707168,
+		"host":"localhost:7080",
+		"appId": "sysMsgAssistant",
+		"appAesKey":"y7oJ2y+EFgMbQM87MtzSqA+bFqAh6Dgbhk8PJ4UWo/8="
+	},
+	"sendTo":{
+		"toUser":"cs1|cs2|cs3",
+		"toDept":"64|69"
+	},
+	"sysMsg":{
+		"title": "系统消息测试",
+        "msg":[
+		    {
+		        "text": {
+				   "content": "测试文本1"
+		        }
+		    },
+		    {
+		        "link": {
+				  "title": "有度即时通",
+				  "url": "https://youdu.im",
+				  "action": 0
+		        }
+		    },
+			{
+		        "text": {
+				   "content": "测试文本2"
+		        }
+		    }
+         ]
+	}
+}
